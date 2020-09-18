@@ -1,7 +1,7 @@
 import tweepy
 import sqlite3
 
-conn = sqlite3.connect('./friends_test_db.sqlite')
+conn = sqlite3.connect('./friends_twitter.sqlite')
 cur = conn.cursor()
 
 cur.executescript(
