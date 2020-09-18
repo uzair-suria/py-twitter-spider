@@ -21,7 +21,7 @@ cur.executescript(
 )
 
 keys = {}
-with open('../Keys/keys.txt') as k:
+with open('./Keys/keys.txt') as k:
     for line in k:
         split = line.split(":")
         keys[split[0]] = split[1].strip()
